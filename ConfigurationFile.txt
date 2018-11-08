@@ -1,0 +1,64 @@
+############################################################
+#                                                          #
+# Configuration File to Dataset Analyzes:                  #
+#                                                          #
+# Date      Author       Description                       #
+# ========  ============ ================================  #
+# 2018      Henrique M.  Configuration File to Analyzes    #
+#                                                          #
+############################################################
+
+################################################
+#   										   #				
+#      Column to be ignoreg in the dataset     #
+#											   #	 			
+################################################ 
+
+R timestamp
+
+################################################
+#   										   #				
+#      K multiplier for each column in order   #
+#          without the ignored colum           #
+#											   #	 			
+################################################ 
+
+# First Column
+K 2
+# Second Column 
+K 2
+# Third Column
+K 2
+# Fourth Column
+K 2
+# Fifth Column
+K 2
+# Sixth Column 
+K 2
+# Seventh Column
+K 2
+
+################################################
+#   										   #				
+#        Final Column, Result of Analyzes      #
+#											   #	 			
+################################################
+
+F Anomalous
+
+################################################
+#   										   #				
+#        X Column, x on the final Graph        #
+#											   #	 			
+################################################
+
+X timestamp
+
+################################################
+#   										   #				
+#        	Column % for analysis,             #
+#			    example 0.5                    #
+#											   #	 			
+################################################
+
+P 0.5
